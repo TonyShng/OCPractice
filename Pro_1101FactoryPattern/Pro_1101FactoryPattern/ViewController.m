@@ -41,7 +41,7 @@
     id rectangle = [factory getShapeWithType:ShapeTypeRectangle];
     [rectangle draw];
     
-    id squra = [factory getShapeWithType:ShapeTypeSqura];
+    id squra = [factory getShapeWithType:ShapeTypeSquare];
     [squra draw];
     
     id circle = [factory getShapeWithType:ShapeTypeCircle];

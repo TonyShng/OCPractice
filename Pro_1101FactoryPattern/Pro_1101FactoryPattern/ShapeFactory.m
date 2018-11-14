@@ -17,7 +17,7 @@
 {
     if (type == ShapeTypeRectangle) {
         return [[Rectangle alloc] init];
-    } else if (type == ShapeTypeSqura){
+    } else if (type == ShapeTypeSquare){
         return [[Square alloc] init];
     } else if (type == ShapeTypeCircle){
         return [[Circle alloc]init];

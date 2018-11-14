@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FactoryProducer.h"
+
 
 @interface ViewController ()
 
@@ -38,8 +40,53 @@
      
         注意事项: 产品族难扩展，产品等级易扩展。
      
-     
      */
+    
+    /* NSNumber */
+    
+//    NSNumber
+    
+    // 获取形状工厂
+    id<AbstractFactory> shapeFactory = [[FactoryProducer new] getFactoryWithType:FactoryTypeShape];
+    
+    // 获取形状为Circle的对象
+    id<Shape> shape1 = [shapeFactory getShapeWithType:ShapeTypeCircle];
+    
+    // 调用Circle的draw方法
+    [shape1 draw];
+    
+    // 获取形状为Rectangle的方法
+    id<Shape> shape2 = [shapeFactory getShapeWithType:ShapeTypeRectangle];
+    
+    // 调用Rectangle的draw方法
+    [shape2 draw];
+    
+    // 获取形状为Square的对象方法
+    id<Shape> shape3 = [shapeFactory getShapeWithType:ShapeTypeSquare];
+    
+    // 调用Square的draw方法
+    [shape3 draw];
+    
+    // 获取颜色工厂
+    id<AbstractFactory> colorFoctory = [[FactoryProducer new] getFactoryWithType:FactoryTypeColor];
+    
+    // 获取颜色为Red的对象
+    id<Color> color1 = [colorFoctory getColorWithColorType:ColorTypeRed];
+    
+    // 调用Red的fill方法
+    [color1 fill];
+    
+    // 获取颜色为Green的对象
+    id<Color> color2 = [colorFoctory getColorWithColorType:ColorTypeGreen];
+    
+    // 调用Green的fill方法
+    [color2 fill];
+    
+    // 获取颜色为Blue的对象
+    id<Color> color3 = [colorFoctory getColorWithColorType:ColorTypeBlue];
+    
+    // 调用Blue的fill方法
+    [color3 fill];
 }
 
 

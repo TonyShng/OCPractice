@@ -15,6 +15,15 @@
 		EA434B23218AEA40007F85B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B22218AEA40007F85B6 /* main.m */; };
 		EA434B2D218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B2C218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternTests.m */; };
 		EA434B38218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B37218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternUITests.m */; };
+		EA434B49218BED56007F85B6 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B48218BED56007F85B6 /* ShapeFactory.m */; };
+		EA434B4C218BED5E007F85B6 /* ColorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B4B218BED5E007F85B6 /* ColorFactory.m */; };
+		EA434B4F218BEDE3007F85B6 /* FactoryProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B4E218BEDE3007F85B6 /* FactoryProducer.m */; };
+		EA434B52218BEE2D007F85B6 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B51218BEE2D007F85B6 /* Rectangle.m */; };
+		EA434B55218BEE6E007F85B6 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B54218BEE6E007F85B6 /* Square.m */; };
+		EA434B58218BEEB5007F85B6 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B57218BEEB5007F85B6 /* Circle.m */; };
+		EA434B5B218BF059007F85B6 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B5A218BF059007F85B6 /* Red.m */; };
+		EA434B5E218BF0A1007F85B6 /* Green.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B5D218BF0A1007F85B6 /* Green.m */; };
+		EA434B61218BF0C7007F85B6 /* Blue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA434B60218BF0C7007F85B6 /* Blue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,27 @@
 		EA434B33218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pro_1101AbstractFactoryPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA434B37218AEA40007F85B6 /* Pro_1101AbstractFactoryPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pro_1101AbstractFactoryPatternUITests.m; sourceTree = "<group>"; };
 		EA434B39218AEA40007F85B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA434B45218BED36007F85B6 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		EA434B46218BED3C007F85B6 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		EA434B47218BED56007F85B6 /* ShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
+		EA434B48218BED56007F85B6 /* ShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
+		EA434B4A218BED5E007F85B6 /* ColorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorFactory.h; sourceTree = "<group>"; };
+		EA434B4B218BED5E007F85B6 /* ColorFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorFactory.m; sourceTree = "<group>"; };
+		EA434B4D218BEDE3007F85B6 /* FactoryProducer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryProducer.h; sourceTree = "<group>"; };
+		EA434B4E218BEDE3007F85B6 /* FactoryProducer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryProducer.m; sourceTree = "<group>"; };
+		EA434B50218BEE2D007F85B6 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		EA434B51218BEE2D007F85B6 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		EA434B53218BEE6E007F85B6 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		EA434B54218BEE6E007F85B6 /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		EA434B56218BEEB5007F85B6 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		EA434B57218BEEB5007F85B6 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		EA434B59218BF059007F85B6 /* Red.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
+		EA434B5A218BF059007F85B6 /* Red.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
+		EA434B5C218BF0A1007F85B6 /* Green.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Green.h; sourceTree = "<group>"; };
+		EA434B5D218BF0A1007F85B6 /* Green.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Green.m; sourceTree = "<group>"; };
+		EA434B5F218BF0C7007F85B6 /* Blue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blue.h; sourceTree = "<group>"; };
+		EA434B60218BF0C7007F85B6 /* Blue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blue.m; sourceTree = "<group>"; };
+		EA434B62218BF3B4007F85B6 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA3A9A0A219BBDA80097F5B9 /* SupportingFiled */ = {
+			isa = PBXGroup;
+			children = (
+				EA434B13218AEA3F007F85B6 /* AppDelegate.h */,
+				EA434B14218AEA3F007F85B6 /* AppDelegate.m */,
+				EA434B19218AEA3F007F85B6 /* Main.storyboard */,
+				EA434B1C218AEA40007F85B6 /* Assets.xcassets */,
+				EA434B1E218AEA40007F85B6 /* LaunchScreen.storyboard */,
+				EA434B22218AEA40007F85B6 /* main.m */,
+			);
+			path = SupportingFiled;
+			sourceTree = "<group>";
+		};
 		EA434B07218AEA3F007F85B6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +144,31 @@
 		EA434B12218AEA3F007F85B6 /* Pro_1101AbstractFactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
-				EA434B13218AEA3F007F85B6 /* AppDelegate.h */,
-				EA434B14218AEA3F007F85B6 /* AppDelegate.m */,
+				EA434B21218AEA40007F85B6 /* Info.plist */,
+				EA3A9A0A219BBDA80097F5B9 /* SupportingFiled */,
 				EA434B16218AEA3F007F85B6 /* ViewController.h */,
 				EA434B17218AEA3F007F85B6 /* ViewController.m */,
-				EA434B19218AEA3F007F85B6 /* Main.storyboard */,
-				EA434B1C218AEA40007F85B6 /* Assets.xcassets */,
-				EA434B1E218AEA40007F85B6 /* LaunchScreen.storyboard */,
-				EA434B21218AEA40007F85B6 /* Info.plist */,
-				EA434B22218AEA40007F85B6 /* main.m */,
+				EA434B4D218BEDE3007F85B6 /* FactoryProducer.h */,
+				EA434B4E218BEDE3007F85B6 /* FactoryProducer.m */,
+				EA434B62218BF3B4007F85B6 /* AbstractFactory.h */,
+				EA434B45218BED36007F85B6 /* Shape.h */,
+				EA434B47218BED56007F85B6 /* ShapeFactory.h */,
+				EA434B48218BED56007F85B6 /* ShapeFactory.m */,
+				EA434B50218BEE2D007F85B6 /* Rectangle.h */,
+				EA434B51218BEE2D007F85B6 /* Rectangle.m */,
+				EA434B53218BEE6E007F85B6 /* Square.h */,
+				EA434B54218BEE6E007F85B6 /* Square.m */,
+				EA434B56218BEEB5007F85B6 /* Circle.h */,
+				EA434B57218BEEB5007F85B6 /* Circle.m */,
+				EA434B4A218BED5E007F85B6 /* ColorFactory.h */,
+				EA434B4B218BED5E007F85B6 /* ColorFactory.m */,
+				EA434B46218BED3C007F85B6 /* Color.h */,
+				EA434B59218BF059007F85B6 /* Red.h */,
+				EA434B5A218BF059007F85B6 /* Red.m */,
+				EA434B5C218BF0A1007F85B6 /* Green.h */,
+				EA434B5D218BF0A1007F85B6 /* Green.m */,
+				EA434B5F218BF0C7007F85B6 /* Blue.h */,
+				EA434B60218BF0C7007F85B6 /* Blue.m */,
 			);
 			path = Pro_1101AbstractFactoryPattern;
 			sourceTree = "<group>";
@@ -263,7 +322,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA434B18218AEA3F007F85B6 /* ViewController.m in Sources */,
+				EA434B61218BF0C7007F85B6 /* Blue.m in Sources */,
+				EA434B52218BEE2D007F85B6 /* Rectangle.m in Sources */,
+				EA434B5E218BF0A1007F85B6 /* Green.m in Sources */,
 				EA434B23218AEA40007F85B6 /* main.m in Sources */,
+				EA434B5B218BF059007F85B6 /* Red.m in Sources */,
+				EA434B58218BEEB5007F85B6 /* Circle.m in Sources */,
+				EA434B49218BED56007F85B6 /* ShapeFactory.m in Sources */,
+				EA434B55218BEE6E007F85B6 /* Square.m in Sources */,
+				EA434B4C218BED5E007F85B6 /* ColorFactory.m in Sources */,
+				EA434B4F218BEDE3007F85B6 /* FactoryProducer.m in Sources */,
 				EA434B15218AEA3F007F85B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
