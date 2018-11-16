@@ -1,8 +1,8 @@
 //
-//  Clonable.h
+//  Prototype.h
 //  Pro_1114PrototypePattern
 //
-//  Created by Tony on 2018/11/14.
+//  Created by Tony on 2018/11/16.
 //  Copyright © 2018年 quanyoubao. All rights reserved.
 //
 
@@ -10,12 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol Clonable <NSObject>
-@property (nonatomic, copy) NSString *ids;
-@property (nonatomic, copy) NSString *type;
+@interface Prototype : NSObject
 
-- (void)draw;
-
+@property (nonatomic, copy) NSString *name;
 
 @end
 

@@ -13,6 +13,7 @@
 		EA44B200219BFB3100735C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA44B1FF219BFB3100735C0F /* Assets.xcassets */; };
 		EA44B203219BFB3100735C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA44B201219BFB3100735C0F /* LaunchScreen.storyboard */; };
 		EA44B206219BFB3100735C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA44B205219BFB3100735C0F /* main.m */; };
+		EA44B210219E5D9A00735C0F /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = EA44B20F219E5D9A00735C0F /* Prototype.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,8 @@
 		EA44B202219BFB3100735C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA44B204219BFB3100735C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA44B205219BFB3100735C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA44B20D219C158E00735C0F /* Clonable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clonable.h; sourceTree = "<group>"; };
+		EA44B20E219E5D9A00735C0F /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
+		EA44B20F219E5D9A00735C0F /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				EA44B20C219BFB4000735C0F /* SupportingFiled */,
 				EA44B1F9219BFB3100735C0F /* ViewController.h */,
 				EA44B1FA219BFB3100735C0F /* ViewController.m */,
-				EA44B20D219C158E00735C0F /* Clonable.h */,
+				EA44B20E219E5D9A00735C0F /* Prototype.h */,
+				EA44B20F219E5D9A00735C0F /* Prototype.m */,
 				EA44B1FC219BFB3100735C0F /* Main.storyboard */,
 				EA44B1FF219BFB3100735C0F /* Assets.xcassets */,
 				EA44B204219BFB3100735C0F /* Info.plist */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA44B210219E5D9A00735C0F /* Prototype.m in Sources */,
 				EA44B1FB219BFB3100735C0F /* ViewController.m in Sources */,
 				EA44B206219BFB3100735C0F /* main.m in Sources */,
 				EA44B1F8219BFB3100735C0F /* AppDelegate.m in Sources */,
