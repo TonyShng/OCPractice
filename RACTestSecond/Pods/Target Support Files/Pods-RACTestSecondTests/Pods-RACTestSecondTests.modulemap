@@ -1,0 +1,6 @@
+framework module Pods_RACTestSecondTests {
+  umbrella header "Pods-RACTestSecondTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
